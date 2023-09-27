@@ -789,7 +789,7 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 chat_id=f"@{SUPPORT_CHAT}",
-                animation="https://telegra.ph/file/e684d81a846cb6a8369ef.jpg",
+                photo="https://telegra.ph/file/e684d81a846cb6a8369ef.jpg",
                 caption=f"""
 **  ᴢᴏɪᴅ x ʀᴏʙᴏᴛ ᴀᴋᴜ ʜɪᴅᴜᴘ**
 
