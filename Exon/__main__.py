@@ -60,7 +60,7 @@ buttons = [
         InlineKeyboardButton(text="❓ ʙᴀɴᴛᴜᴀɴ", callback_data="help_back"
        ),
         InlineKeyboardButton(
-            text="ᴅᴏɴᴀsɪ 🎁", callback_data="url=f"tg://user?id={OWNER_ID}"
+            text="ᴅᴏɴᴀsɪ 🎁", url=f"tg://user?id={OWNER_ID}"
        ),
     ],
     [
