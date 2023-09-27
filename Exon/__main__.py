@@ -36,25 +36,42 @@ from Exon.modules.helper_funcs.misc import paginate_modules
 from Exon.modules.language import gs
 
 PM_START_TEX = """
-ʜᴇʟʟᴏ `{}`, ʜᴏᴡ ᴀʀᴇ ʏᴏᴜ \nᴡᴀɪᴛ ᴀ ᴍᴏᴍᴇɴᴛ ʙʀᴏ . . . 
-"""
+*ʜᴇʟʟᴏ {} !* [🎉](https://telegra.ph/file/e684d81a846cb6a8369ef.jpg)
 
+━━━━━━━━━━━━━━━━━━━━━━━━
+{} ᴅɪʙᴜᴀᴛ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ᴅᴀɴ ᴍᴇᴍᴜᴛᴀʀ ᴍᴜꜱɪᴋ ᴅɪɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴇʀʙᴀɢᴀɪ ꜰɪᴛᴜʀ.
+━━━━━━━━━━━━━━━━━━━━━━━━
+➻ ᴜᴘᴛɪᴍᴇ » `{}`
+➻ ᴜsᴇʀs » `{}`
+➻ ɢʀᴏᴜᴘꜱ » `{}`
+━━━━━━━━━━━━━━━━━━━━━━━━
+ ᴛᴇᴋᴀɴ /help ᴀᴛᴀᴜ /mhelp ᴜɴᴛᴜᴋ ᴘᴇʀɪɴᴛᴀʜ ꜱᴀʏᴀ ʏᴀɴɢ ᴛᴇʀꜱᴇᴅɪᴀ.
+━━━━━━━━━━━━━━━━━━━━━━━━
+"""
 
 buttons = [
     [
-        InlineKeyboardButton(
-            text="❣ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ❣︎", url=f"t.me/{BOT_USERNAME}?startgroup=new"
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="https://t.me/Eror_404_NF"
+        ),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/ZoidsSupport"
         ),
     ],
     [
-        InlineKeyboardButton(text=f"🚁 ʜᴇʟᴘ 🚁", callback_data="help_back"),
-        InlineKeyboardButton(text=f"🥀 sᴛᴀᴛs 🥀", callback_data="stats_callback"),
+        InlineKeyboardButton(text="❓ ʙᴀɴᴛᴜᴀɴ", callback_data="help_back"
+       ),
+        InlineKeyboardButton(
+            text="ᴅᴏɴᴀsɪ 🎁", callback_data="url=f"tg://user?id={OWNER_ID}"
+       ),
     ],
     [
-        InlineKeyboardButton(text="🏡 ᴀʙᴏᴜᴛ 🏡", callback_data="ABG_"),
-        InlineKeyboardButton(text="🥀 ᴅᴇᴠᴇʟᴏᴘᴇʀ 🥀", url=f"tg://user?id={OWNER_ID}"),
-    ],
+        InlineKeyboardButton(
+            text="➗ᴛᴀᴍʙᴀʜᴋᴀɴ ᴢᴏɪᴅs➗", url="https://t.me/ZoidsXRobot_bot?startgroup=true"
+        ),
+     ],
 ]
+
+HELP_STRINGS = """
+Klik tombol di bawah ini untuk mendapatkan deskripsi tentang perintah spesifik."""
 
 
 IMPORTED = {}
