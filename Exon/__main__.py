@@ -254,8 +254,7 @@ def start(update: Update, context: CallbackContext):  # sourcery no-metrics
             update.effective_message.reply_text(
                 PM_START_TEX.format(
                     escape_markdown(first_name),
-                    BOT_NAME,
-                    escape_markdown(uptime),
+                   
                     sql.num_users(),
                     sql.num_chats()),                        
                 reply_markup=InlineKeyboardMarkup(buttons),
