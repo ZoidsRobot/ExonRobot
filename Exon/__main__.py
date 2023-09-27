@@ -274,9 +274,7 @@ def start(update: Update, context: CallbackContext):  # sourcery no-metrics
 
     
 
-    else:
-        update.effective_message.reply_text(gs(chat.id, "grp_start_text"))
-
+ 
     if hasattr(update, "callback_query"):
         query = update.callback_query
         if hasattr(query, "id"):
