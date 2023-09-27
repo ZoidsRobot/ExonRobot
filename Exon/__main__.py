@@ -802,7 +802,7 @@ def main():
                 parse_mode=ParseMode.MARKDOWN,
             )
         except Unauthorized:
-            LOGGER.warning(
+            log.warning(
                 f"Bot isn't able to send message to @{SUPPORT_CHAT}, go and check!"
             )
         except BadRequest as e:
